@@ -1,5 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
+# Nicholas Novak
+# Introduction to Python course assignment
 
 
 #Open the included file
@@ -8,7 +8,7 @@ dictionary_file.readlines()
 
 
 
-# Now, find the longest word in the dictionary, with a catch.  We want all words that tie the longest word in length, not merely the longest word.  Let's store them in a list.  
+# Find the longest word in the dictionary, with a catch.  We want all words that tie the longest word in length, not merely the longest word.  Let's store them in a list.  
 # The dictionary text file has each line ending with a newline character '\n'.  
 # As you add the words to the list, we can remove that pesky newline character by using rstrip() on the string.  
 
@@ -102,7 +102,6 @@ unique_words('lab5_dictionary.txt')
 # 
 # **if the user enters rat, the dictionary will find 'art\n' (length of 4 characters).  Since we have a bigger string, there's no way to build an anagram since the user didn't enter the newline character **
 # 
-# 
 # For testing your function the following words do have anagrams in this dictionary:
 # 
 # 1) restful
@@ -112,8 +111,7 @@ unique_words('lab5_dictionary.txt')
 # 3) binary
 # 
 # Return all anagrams found.
-#
-# 
+
 
 #Provided function
 def is_anagram(string1,string2):
